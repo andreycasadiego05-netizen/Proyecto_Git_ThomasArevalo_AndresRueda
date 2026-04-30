@@ -1,5 +1,6 @@
 from añadir import añadir_servicio
-
+from eliminar import eliminar_servicio
+from modificar import modificar_servicio
 
 while True:
     print("Gestion de servicios fotografico")
@@ -8,8 +9,8 @@ while True:
     if opcion == 1 :
         añadir_servicio()
     elif opcion == 2:
-        añadir_servicio()
+        modificar_servicio()
     elif opcion == 3:
-        añadir_servicio()
+        eliminar_servicio()
     elif opcion == 4:
-        añadir_servicio()
+        break
